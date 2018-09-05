@@ -1,15 +1,24 @@
-# Setup
+# Clone
 
 ```
 $ git clone https://github.com/toshiyukihina/docker-golang-devenv.git
 $ cd docker-golang-devenv
+```
+
+# Setup
+
+## With `docker`
+
+```
 $ docker build -t <name:tag>
-```
-
-# Run
-
-```
 $ docker run -v "$PWD":/go/src -p 8080:8080 -d <name:tag>
+```
+
+## With `docker-compose`
+
+```
+$ docker-compose build
+$ docker-compose up -d
 ```
 
 # Test
