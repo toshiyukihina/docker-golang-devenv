@@ -7,15 +7,6 @@ $ cd docker-golang-devenv
 
 # Setup
 
-## With `docker`
-
-```
-$ docker build -t <name:tag>
-$ docker run -v "$PWD":/go/src -p 8080:8080 -d <name:tag>
-```
-
-## With `docker-compose`
-
 ```
 $ docker-compose build
 $ docker-compose up -d
