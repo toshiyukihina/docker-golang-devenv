@@ -1,3 +1,9 @@
+# Prerequisite
+
+## For Mac OS
+
+Install [Docker for Mac](https://docs.docker.com/docker-for-mac/install/).
+
 # Clone
 
 ```
